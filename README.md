@@ -1,16 +1,16 @@
-#Automatic mail composing system. 
+# Automatic mail composing system. 
 
 A small simple utility, created in the interests of Private Security Company "MAP BEZOPASNOST'" to alert employees about changes in work.
 
-###CLI parameters:
+### CLI parameters:
 
-  -c, --config FILE      Configuration file. Only JSON.  
-  -r, --recipient FILE   File with recipient and other data. Only CSV.  
-  -t, --text FILE        Message text. TXT file plz.  
-  -h, --help             Display help and usage details   
+  **-c, --config FILE**      Configuration file. Only JSON.
+  **-r, --recipient FILE**   File with recipient and other data. Only CSV.  
+  **-t, --text FILE**        Message text. TXT file plz.  
+  **-h, --help**             Display help and usage details   
 
 
-###Description
+### Description
 
 This utility is both a tool for mass mail sending, and the simplest template engine.
 All variables are stored in the .CSV file.
@@ -20,7 +20,7 @@ Required parameters:
 
 All other parameters are added as needed and used in the text through the symbol **$** + the name of the variable.
 
-###Example.
+### Example.
 
 Text written like:
 
